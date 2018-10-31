@@ -50,9 +50,10 @@ def roll():
 			money-=bet
 		print("----------------")
 		print('{}\n{} ◀\n{}\n'.format(' : '.join(line1), ' : '.join(line2), ' : '.join(line3)))
-
+			
 		if win > 0:
 			print('You won Rs',bet)
+			print('COngrats!!')
 		else:
 			print('You lost Rs.',bet,' money')
 
